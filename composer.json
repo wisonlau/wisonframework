@@ -1,0 +1,21 @@
+{
+  "name": "wisonlau/wisonframework",
+  "description": "The PHP Framework.",
+  "keywords": ["framework", "wisonframework"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "authors": [
+    {
+      "name": "wisonlau",
+      "email": "122022066@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}

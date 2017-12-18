@@ -1,0 +1,2 @@
+<p>{{ $some }}</p>
+@include('site.view', ['some' => 'data'])
